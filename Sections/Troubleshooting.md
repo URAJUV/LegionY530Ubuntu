@@ -54,6 +54,10 @@ Instead of selecting "Install Ubuntu," select the "Try Ubuntu" option. Then open
 
 ` sudo dmraid -E -r /dev/sda`
 
-It will ask if you want to delete metadata, you can say yes to this. 
+It will ask if you want to delete metadata, you can say yes to this.
+
+### Windows does not show Grub bootloader at startup.
+To resolve this goto Exit menu in bios and then disable "Os Optimized Defaults"
+![Disable Os Optimization Defaults](../Images/os_optimization.png)
 
 You can now exit the terminal and follow the guide to install Ubuntu in a dualboot scenario
